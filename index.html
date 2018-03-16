@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>简单计算器</title>
+       <meta charset="utf-8">
+       <link rel="stylesheet" type="text/css" href="style.css">
+       <script src="script.js" type="text/javascript"></script>
+    </head>
+
+    <body>
+       <div id="jisuanqi">
+          <div id="blank">
+             <input type="text" id="Text" onfocus="this.blur();" class="in"> 
+          </div>
+          <div id="button">
+             <input type="button" value = "7" onclick ="Input('7')" class="Button">
+             <input type="button" value = "8" onclick ="Input('8')" class="Button">
+             <input type="button" value = "9" onclick ="Input('9')" class="Button">
+             <input type="button" value = "/" onclick ="Input('/')" class="Button">
+             <input type="button" value = "4" onclick ="Input('4')" class="Button">
+             <input type="button" value = "5" onclick ="Input('5')" class="Button">
+             <input type="button" value = "6" onclick ="Input('6')" class="Button">
+             <input type="button" value = "*" onclick ="Input('*')" class="Button">
+             <input type="button" value = "1" onclick ="Input('1')" class="Button">
+             <input type="button" value = "2" onclick ="Input('2')" class="Button">
+             <input type="button" value = "3" onclick ="Input('3')" class="Button">
+             <input type="button" value = "-" onclick ="Input('-')" class="Button">
+             <input type="button" value = "0" onclick ="Input('0')" class="Button">
+             <input type="button" value = "." onclick ="Input('.')" class="Button">
+             <input type="button" value = "<" onclick ="remove()" class="Button">
+             <input type="button" value = "+" onclick ="Input('+')" class="Button">
+             <input type="button" value = "(" onclick ="Input('(')" class="Button">
+             <input type="button" value = ")" onclick ="Input(')')" class="Button">
+             <input type="button" value = "C" onclick ="removeAll()" class="Button">
+             <input type="button" value = "=" onclick ="GetAnswer()" class="Button">
+          </div>
+       </div>
+    </body>
+
+</html>
